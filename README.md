@@ -53,3 +53,17 @@ The `not-gstreamer1` branch is a backport of features and bug fixes
 from the `master` branch for ongoing maintenance of the activity on
 Fedora 18 systems which don't have well-functioning GStreamer 1
 packages.
+
+
+## Quick Setup for Developers
+
+To get started with development:
+
+1. Clone the repository.
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the activity: `python activity.py`
+
+### Adding a New Language
+To add support for a new language:
+1. Add the language code to `LANGUAGE_CODES` in `speech.py`.
+2. Add the display name to `LANGUAGE_NAMES` in `speech.py`.
