@@ -53,3 +53,16 @@ The `not-gstreamer1` branch is a backport of features and bug fixes
 from the `master` branch for ongoing maintenance of the activity on
 Fedora 18 systems which don't have well-functioning GStreamer 1
 packages.
+
+
+## Quick Setup for Developers
+```bash
+# Clone the repo
+git clone https://github.com/sugarlabs/speak-ai
+cd speak-ai
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the activity
+python activity.py
